@@ -28,3 +28,7 @@ end
 
 ActiveRecord::Migration.maintain_test_schema!
 Capybara.javascript_driver = :poltergeist
+
+class ActionView::TestCase::TestController
+  include Rails.application.routes.url_helpers
+end
