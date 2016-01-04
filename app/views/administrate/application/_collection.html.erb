@@ -1,11 +1,8 @@
 <%#
 # Collection
-
 This partial is used on the `index` and `show` pages
 to display a collection of resources in an HTML table.
-
 ## Local variables:
-
 - `collection_presenter`:
   An instance of [Administrate::Page::Collection][1].
   The table presenter uses `ResourceDashboard::COLLECTION_ATTRIBUTES` to determine
@@ -14,7 +11,6 @@ to display a collection of resources in an HTML table.
   An ActiveModel::Relation collection of resources to be displayed in the table.
   By default, the number of resources is limited by pagination
   or by a hard limit to prevent excessive page load times
-
 [1]: http://www.rubydoc.info/gems/administrate/Administrate/Page/Collection
 %>
 
@@ -25,7 +21,7 @@ to display a collection of resources in an HTML table.
         <th class="cell-label cell-label--<%= attr_type.html_class %>
           cell-label--<%= collection_presenter.ordered_html_class(attr_name) %>
         " scope="col">
-        <%= link_to(params.merge(
+        <%= link_to(params.permit!.merge(
           collection_presenter.order_params_for(attr_name)
         )) do %>
             <%= attr_name.to_s.titleize %>
