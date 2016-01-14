@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/jnicklas/capybara.git
+  remote: https://github.com/jnicklas/capybara
   revision: 4b3093f4bd12a682b41d8e88d3958d33e70f4662
   specs:
     capybara (2.6.0.dev)
@@ -10,31 +10,31 @@ GIT
       xpath (~> 2.0)
 
 GIT
-  remote: git://github.com/rspec/rspec-core.git
-  revision: e05932768e305d13669bfa2475db74b805cda097
+  remote: https://github.com/rspec/rspec-core
+  revision: be0e1bc0a2b03e3f820195f54b0fe96c87fa587f
   specs:
     rspec-core (3.5.0.pre)
       rspec-support (= 3.5.0.pre)
 
 GIT
-  remote: git://github.com/rspec/rspec-expectations.git
-  revision: 87376eed1f580682c86ea88448ab0411be238c07
+  remote: https://github.com/rspec/rspec-expectations
+  revision: d17110bdd0dca2e8daa3339c0fcfafcc5dc31a9c
   specs:
     rspec-expectations (3.5.0.pre)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (= 3.5.0.pre)
 
 GIT
-  remote: git://github.com/rspec/rspec-mocks.git
-  revision: 29269d483f39ce78f3614a16b2e00a2a496a482c
+  remote: https://github.com/rspec/rspec-mocks
+  revision: 42ef957e0af1813c0933f29588121e78fadb8244
   specs:
     rspec-mocks (3.5.0.pre)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (= 3.5.0.pre)
 
 GIT
-  remote: git://github.com/rspec/rspec-rails.git
-  revision: c9fbfeea8751011f05146d9c9a4be4b038058284
+  remote: https://github.com/rspec/rspec-rails
+  revision: b2ac99c4202245598f3a15f14aa22ae3cd1b66b7
   specs:
     rspec-rails (3.5.0.pre)
       actionpack (>= 3.0)
@@ -46,8 +46,8 @@ GIT
       rspec-support (= 3.5.0.pre)
 
 GIT
-  remote: git://github.com/rspec/rspec-support.git
-  revision: 885e37c525b68ccca8351fe648a7826f34630318
+  remote: https://github.com/rspec/rspec-support
+  revision: 4b938ec512d2fbee945913afbb957b510244ecb3
   specs:
     rspec-support (3.5.0.pre)
 
